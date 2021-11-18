@@ -657,7 +657,7 @@
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.3.tgz#1185726610acc37317ddab11c3c7f9066966bd20"
   integrity sha512-O3uyB/JbkAEMZaP3YqyHH7TMnex7tWyCbCI4EfJdOCoN6HIhqdJBWTM6aCCiWQ/5f5wxjgU735QAIpJbjDvmzg==
 
-"@stripe/stripe-js@^1.13.2":
+"@stripe/stripe-js@^1.21.1":
   version "1.21.1"
   resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.21.1.tgz#e56cd01f889dc06af4a68ebf61d2492a87e80da1"
   integrity sha512-/HhRol0Bia/6L7JstXUOpg3m0U3nBW8c2tvaBE6QdonN+OMusYT9AIqCMR/PyzoF3ROifFJ2kbWT7xQjbKN3tw==
@@ -776,15 +776,12 @@
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
 
-"@types/next-auth@3.7.1":
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/@types/next-auth/-/next-auth-3.7.1.tgz#9f3d7d79e2dd06fc0ddbce2ab732ee8ec12b6be9"
-  integrity sha512-HV3i87HLwt/nO6wSy6ainAYyzBxeEITOwaq8TZevaFG2Ix7eleAgL0ae7gAEa4SW4Ms+2rxv7eIZtk/CIpMapg==
+"@types/next-auth@^3.15.0":
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/@types/next-auth/-/next-auth-3.15.0.tgz#b602f4689b35fff3d2af09500c79ab11c4745bca"
+  integrity sha512-ZVfejlu81YiIRX1m0iKAfvZ3nK7K9EyZWhNARNKsFop8kNAgEvMnlKpTpwN59xkK2OhyWLagPuiDAVBYSO9jSA==
   dependencies:
-    "@types/node" "*"
-    "@types/react" "*"
-    jose "^1.28.0"
-    typeorm "^0.2.31"
+    next-auth "*"
 
 "@types/node@*", "@types/node@>=8.1.0":
   version "16.11.7"
@@ -811,7 +808,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@*", "@types/react@^17.0.3":
+"@types/react@^17.0.3":
   version "17.0.35"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.35.tgz#217164cf830267d56cd1aec09dcf25a541eedd4c"
   integrity sha512-r3C8/TJuri/SLZiiwwxQoLAoavaczARfT9up9b4Jr65+ErAUX3MIkU0oMOQnrpfgHme8zIqZLX7O5nnjm5Wayw==
@@ -1017,12 +1014,12 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-axios@^0.21.1:
-  version "0.21.4"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
-  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+axios@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
   dependencies:
-    follow-redirects "^1.14.0"
+    follow-redirects "^1.14.4"
 
 babel-jest@^27.0.2, babel-jest@^27.3.1:
   version "27.3.1"
@@ -1926,7 +1923,7 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-faunadb@^4.1.2:
+faunadb@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/faunadb/-/faunadb-4.4.1.tgz#bb6befeb0e079335fbfb96b349ef5f8be17d8120"
   integrity sha512-1V2ve22T4Q45C3PBB+LD7Fpk4lVajbtxDXDpENsujC+LMe88LqBQ9brl5v5uB3sCTSVAX0fsGtuZ+N5x15vdoQ==
@@ -1978,7 +1975,7 @@ fn-annotate@^1.1.3:
   resolved "https://registry.yarnpkg.com/fn-annotate/-/fn-annotate-1.2.0.tgz#28da000117dea61842fe61f353f41cf4c93a7a7e"
   integrity sha1-KNoAARfephhC/mHzU/Qc9Mk6en4=
 
-follow-redirects@^1.14.0:
+follow-redirects@^1.14.4:
   version "1.14.5"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
   integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
@@ -2803,7 +2800,7 @@ jest@^27.0.4:
     import-local "^3.0.2"
     jest-cli "^27.3.1"
 
-jose@^1.27.2, jose@^1.28.0:
+jose@^1.27.2:
   version "1.28.1"
   resolved "https://registry.yarnpkg.com/jose/-/jose-1.28.1.tgz#34a0f851a534be59ffab82a6e8845f6874e8c128"
   integrity sha512-6JK28rFu5ENp/yxMwM+iN7YeaInnY9B9Bggjkz5fuwLiJhbVrl2O4SJr65bdNBPl9y27fdC3Mymh+FVCvozLIg==
@@ -3165,7 +3162,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-auth@^3.13.3:
+next-auth@*, next-auth@^3.29.0:
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.29.0.tgz#60ddbfc7ed8ae7d43ebb02c16dc58eebf5dcb337"
   integrity sha512-B//4QTv/1Of0D+roZ82URmI6L2JSbkKgeaKI7Mdrioq8lAzp9ff8NdmouvZL/7zwrPe2cUyM6MLYlasfuI3ZIQ==
@@ -4335,7 +4332,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typeorm@^0.2.30, typeorm@^0.2.31:
+typeorm@^0.2.30:
   version "0.2.40"
   resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.40.tgz#5a5168b9ad4f01b539c9a09a9fbdb65631928b32"
   integrity sha512-F1WQKFl3opokSBNxUdX68uhD1Hpk8mgigsLtJKluI7YRs52+tsHNuaO5gLSzvjYZoLqnYc6pomsCYZMRUT2zxA==
